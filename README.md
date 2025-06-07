@@ -22,6 +22,8 @@ cd logistica-remove_image_bg
 ./run.sh path/to/photo.jpg
 # → output.png generated in the same folder
 ```
+`run.sh` automatically activates the local virtual environment if it exists,
+so it can be invoked from any directory.
 
 You can also run directly:
 
